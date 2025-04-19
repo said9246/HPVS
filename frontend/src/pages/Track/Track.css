@@ -1,0 +1,58 @@
+
+.tracking_page .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 60px;
+}
+.tracking_page h2{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    margin: 14px 0px;
+
+}
+.tracking_page .content .custom_input{
+    width: 500px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.397);
+    border-radius: 5px;
+    color: black;
+    
+}
+.tracking_page .content .custom_input input{
+    background-color: transparent;
+    height: 34px;
+    width: 350px;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    padding-left: 20px;
+    
+}
+.tracking_page .content .custom_input button{
+    background-color: rgb(235, 235, 235);
+    height: 34px;
+    padding: 0px 10px;
+    border-radius: 5px;
+
+
+    
+}
+.tracking_page .content .message{
+    font-size: 12px;
+}
+
+@media screen and (max-width:786px) {
+    .tracking_page .custom_input{
+        width: 95% !important;
+        justify-content: center !important;
+
+    }
+
+}

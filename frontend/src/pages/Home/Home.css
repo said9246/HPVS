@@ -1,0 +1,169 @@
+.home_page_tracker{
+    background-color: #2250FC;
+    gap: 30px;
+}
+.home_page{
+    display: flex;
+    flex-direction: column;
+}
+
+.home_page_tracker .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.home_page_tracker h2{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+
+}
+.home_page_tracker .content .custom_input{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.397);
+    border-radius: 5px;
+    color: black;
+    
+}
+.home_page_tracker .content .custom_input input{
+    background-color: transparent;
+    height: 34px;
+    width: 350px;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    padding-left: 20px;
+}
+.home_page_tracker .content .custom_input button{
+    background-color: rgb(235, 235, 235);
+    height: 34px;
+    padding: 0px 10px;
+}
+.home_page_tracker .content .message{
+    font-size: 12px;
+}
+.storage_solution{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.storage_solution h1{
+    font-weight: 900;
+    font-size: 34px;
+    color: rgb(24, 21, 21);
+}
+ .custom_border{
+    background-color: #2250FC;
+    width: 100px;
+}
+.why_chose_us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 120px 0px;
+    text-align: center;
+    background-color: #F9F9FA;
+}
+.why_chose_us h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 37px;
+    margin: 10px 0px;
+
+}
+.why_chose_us .heading{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.why_chose_us .heading p{
+    font-weight: lighter;
+    width:95%;
+    color: rgb(56, 56, 56);
+}
+.reasons_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-top: 60px;
+}
+.reason{
+    width: 340px;
+    display: flex;
+    gap: 20px;
+margin: 10px 0px;
+cursor: pointer;
+}
+.reason .icon{
+    border: 2px solid black;
+    border-radius: 50%;
+    width: fit-content;
+    height: fit-content;
+    padding: 14px;
+    cursor: pointer;
+}
+.reason .icon i{
+    font-size: 29px;
+}
+.reason:hover .icon{
+    padding: 17px;
+    transition: 0.1s ease-in;
+    border:3px solid black ;
+}
+
+.reason{
+    text-align: left;
+}
+.reason .deatils{
+    font-size: 15px;
+}
+.reason .deatils span{
+    font-weight: 700;
+    font-family: "Poppins";
+    font-size: 14px;
+}
+.reason .deatils p{
+    font-family:'Roboto';
+    font-size: 13px;
+}
+.join_us h4{
+font-size: 12px;
+color: rgb(59, 59, 59);
+}
+.join_us button{
+    background-color: #2250FC;
+    color: white;
+    width: fit-content;
+    padding: 10px 30px;
+    font-size: 20px;
+    margin: 0px auto;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:786px) {
+   .storage_solution{
+    text-align: center;
+   }
+   .storage_solution video{
+    width: 90%;
+   }
+   .home_page_tracker .custom_input{
+    width: 50% !important;
+   }
+}

@@ -1,0 +1,108 @@
+.services{
+    background-color: white;
+}
+ .bg_overlay{
+    background-image: url("https://ourierge.com/assets/images/parallax/6.jpg");
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+ .bg_overlay h5{
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+ .bg_overlay .content{
+    padding-top: 70px;
+}
+.services .bg_overlay h1{
+    font-size: 55px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    margin: 10px 0px;
+}
+.services .what_we_do{
+    padding-top: 60px;
+}
+.services .what_we_do .heading{
+    text-align: center;
+    justify-content: center;
+
+}
+.services .what_we_do .heading h1{
+    font-size: 34px;
+    letter-spacing: 1px;
+    margin: 10px 0px;
+    font-weight: 600;
+
+}
+.we_do_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-top: 100px;
+
+}
+.we_do_container .we_do{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.we_do_container .we_do .icon  {
+    font-size: 26px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 14px ;
+}
+.we_do:hover .icon{
+    padding: 15px;
+    border: 2px solid black;
+    transition: 0.2s;
+}
+.we_do .heading {
+font-size: 14px;
+font-family: 'Poppins', sans-serif;
+font-weight: 600;
+}
+.we_do .message{
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    color: #474B4E;
+}
+.see_by_yourself{
+    gap: 10px;
+    font-family: "Poppins", sans-serif;
+
+}
+.see_by_yourself h2,h1{
+    font-weight: 500;
+    margin-top: 20px;
+}
+.see_by_yourself button{
+    background-color: #FFC107;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+    margin-top: 30px;
+}
+@media screen and (max-width:786px) {
+ .see_by_yourself img{
+    width: 90%;
+ }
+ }
+ 

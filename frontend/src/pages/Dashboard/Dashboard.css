@@ -1,0 +1,31 @@
+.add_orders input{
+    width: 300px;
+}
+
+
+@media screen and (max-width:786px) {
+    .add_orders input{
+        width: 320px;
+        height: 49px;
+    }
+    .add_orders{
+        justify-content: center;
+        align-items: center;
+    }
+    .search_orders form{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .search_orders p{
+        margin: 20px auto;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:786px) {
+    .dashbaord_header{
+        flex-direction: column;
+        gap: 20px;   
+       }    
+}
